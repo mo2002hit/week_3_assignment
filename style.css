@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  color: white;
+  text-shadow: 2px 2px 3px #e4fbff;
+  font-family: Kaushan Script;
+}
+body{
+  text-align: center;
+  background-color: #e4fbff;
+  margin: 0 0 0 0;
+}
+.Container{
+  text-align: center;
+  height: 100%;
+
+}
+.head{
+  background-color: #b8b5ff;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
+hr{
+  background-color: #511281;
+  border-radius: 5px;
+}
+button {
+  display: block;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  background-color: #b8b5ff;
+  color: white;
+  border: none;
+  margin: 1vh 1vh 1vh 1vh;
+  cursor: pointer;
+  transition: 0.8s;
+}
+.queTable button:hover{
+  background-color: #511281;
+
+}
+.queTable{
+  margin: 10px auto 10px auto;
+}
+#frame{
+  width: 800px;
+  height: 380px;
+  border: none;
+  margin-top: 15px;
+  background-color: #ccf2f4;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.8s;
+}

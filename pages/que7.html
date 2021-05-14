@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Question 4</title>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Comic+Neue:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="que4.css">
+
+<body>
+  <div class="top">
+    <h1>Display all the even numbers between 0 to 10</h1>
+  </div>
+  <input type="button" value="click" onclick="even()" id="btn"><br>
+
+  <div id="new"></div>
+
+
+  <script>
+    function even() {
+      var n;
+      for (n = 0; n <= 10; n++) {
+        if (n % 2 == 0) {
+          document.getElementById("new").innerHTML += n + " ";
+        }
+      }
+    }
+  </script>
+</body>
+
+</html>

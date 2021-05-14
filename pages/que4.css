@@ -1,0 +1,48 @@
+*{
+  margin:0;
+  padding: 0;
+  text-align: center;
+}
+h1 {
+  font-size: 25px;
+  font-family: Comic Neue;
+}
+.top {
+  background-color: #eff8ff;
+  margin: 5vh 6vh 5vh 6vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+input[type=text] {
+  border-radius: 10px;
+  background-color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type=button] {
+  border-radius: 10px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#new{
+  margin: 5vh auto auto auto;
+
+}
+
+.content{
+  margin: 0 auto 0 auto;
+  height:500px;
+  width: 800px;
+  border: solid black;
+
+}

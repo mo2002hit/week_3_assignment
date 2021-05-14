@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Question 4</title>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Comic+Neue:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="que2.css">
+
+<body>
+  <div class="top">
+    <h1>Display odd numbers between any two number.</h1>
+  </div>
+  <div class="input">
+    <div class="instruct">
+      <h2>Enter the two numbers</h2>
+    </div>
+    <div class="input-box">
+      <input type="text" id="num1">
+      <input type="text" id="num2">
+      <input type="button" value="Enter" onclick="fun()" id="btn">
+    </div>
+  </div>
+  <div class="ans">
+    <h2>Answer</h2>
+  </div>
+  <div class="output">
+    <output name="result" id="out"></output>
+  </div>
+  <script>
+    function fun() {
+      var num1=parseInt(document.getElementById("num1").value);
+      var num2=parseInt(document.getElementById("num2").value);
+      var n;
+      for (n = num1+1; n < num2; n++) {
+        if (n % 3 !== 0) {
+          document.getElementById("out").innerHTML += n + "  ";
+        }
+      }
+    }
+  </script>
+</body>
+
+</html>
