@@ -84,7 +84,9 @@ button {
   font-family: Cairo;
   font-weight: bolder;
 }
-footer{
+.footer{
   position: absolute;
   bottom: 0;
+  width: 100%;
+
 }
