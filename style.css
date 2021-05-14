@@ -7,6 +7,15 @@ h1{
   text-shadow: 2px 2px 3px #e4fbff;
   font-family: Kaushan Script;
 }
+h2{
+  color: white;
+  font-family: Kaushan Script;
+}
+h3{
+  color: #fbe0c4;
+  font-family: Rancho;
+  font-size: 15px;
+}
 body{
   text-align: center;
   background-color: #e4fbff;
@@ -48,11 +57,31 @@ button {
   margin: 10px auto 10px auto;
 }
 #frame{
-  width: 800px;
-  height: 380px;
+  width: 900px;
+  height: 600px;
   border: none;
   margin-top: 15px;
   background-color: #ccf2f4;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition: 0.8s;
 }
+.contact-me{
+  background-color: #2978b5;
+}
+.bottom-container{
+  background-color: #0061a8;
+
+}
+.footer-link{
+  text-decoration: underline;
+  color: #f8f5f1;
+  font-family: Cairo;
+  font-weight: bold;
+}
+.btn{
+  text-decoration: under;
+  color: #f8f5f1;
+  font-family: Cairo;
+  font-weight: bolder;
+}
+
